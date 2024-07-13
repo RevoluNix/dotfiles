@@ -61,11 +61,11 @@
         "virtual-machines": "virtual-machines"
       },
       "locked": {
-        "lastModified": 1720872621,
-        "narHash": "sha256-Dv/yfUs5QyO7hf0rA6U5gKiH4SBxk+fE+6C4bmxLKbU=",
+        "lastModified": 1720876267,
+        "narHash": "sha256-eXYoCHahZHsMKGHTnGH1SzNdl9KxPQDUjULJwkmH9zc=",
         "owner": "RevoluNix",
         "repo": "revolunixpkgs",
-        "rev": "824604c429d1f57ede8f83c8ba0927e656d7613e",
+        "rev": "0a59e550b6ebddeb0a4418eb4c069c4f68c31529",
         "type": "github"
       },
       "original": {
