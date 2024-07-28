@@ -32,7 +32,8 @@
   }: let
     system = "x86_64-linux";
     hostname = "RevoluNixOS";
-    pkgs = nixpkgs.revolunixpkgs;
+    pkgs = nixpkgs;
+    purepkgs = nixpkgs.purepkgs;
 
     users = rec {
       primaryUser = "gabriel";
@@ -89,9 +90,9 @@
 #######################################################################
   in
   {
-    nixosConfigurations = (nixpkgs.lib.genAttrs
+    nixosConfigurations = (purepkgs.lib.genAttrs
     (builtins.attrNames computers)
-    (name: nixpkgs.lib.nixosSystem {
+    (name: purepkgs.lib.nixosSystem {
       specialArgs = {
         inherit pkgs;
       };
