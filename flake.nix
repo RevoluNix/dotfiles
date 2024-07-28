@@ -117,7 +117,7 @@
           home-manager.nixosModules.home-manager {home-manager = {
             useGlobalPkgs = true;
             useUserPackages = true;
-            users = users.configs.home;
+            users = (users.configs.home hostname);
           };}
         ];
     }));
