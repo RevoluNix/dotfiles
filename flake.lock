@@ -61,11 +61,11 @@
         "virtual-machines": "virtual-machines"
       },
       "locked": {
-        "lastModified": 1722182229,
-        "narHash": "sha256-0EK1HVQbnR4LpNovMMCYmuU3hik/R70XSoHOlW8i0kE=",
+        "lastModified": 1722184192,
+        "narHash": "sha256-MgC/L78M03IlSpzxOsldRU00aWUzn6QB0SylZc2UScE=",
         "owner": "RevoluNix",
         "repo": "revolunixpkgs",
-        "rev": "3ca8a1c5052812fc69f977d1536055fed26b8922",
+        "rev": "8ebabb6f0107d94a4ec211438bca0da9d21ec4c4",
         "type": "github"
       },
       "original": {
@@ -115,11 +115,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1720872451,
-        "narHash": "sha256-ybcGbwKpzHTIPjzFtSH2QLc4C5ccvrF3PmVh+hbJ37E=",
+        "lastModified": 1722182152,
+        "narHash": "sha256-DZe2mBhBYSXxdfwt2rA3DS4QLkCoqIcUoePxAJS5f7I=",
         "owner": "RevoluNix",
         "repo": "module-system",
-        "rev": "4438be3717e93a058bda04a2e47995a1cf8ad918",
+        "rev": "aa8afdf33081d440c8c9a6f9d8001da09c9ad561",
         "type": "github"
       },
       "original": {
